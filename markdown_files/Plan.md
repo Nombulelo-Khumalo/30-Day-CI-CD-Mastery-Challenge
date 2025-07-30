@@ -1,6 +1,6 @@
 # 🔥30-Day CI/CD Mastery Challenge
 
-## A complete, leveled roadmap built for real-world DevOps roles, growing complexity, and solution engineering. This plan blends **theory + hands-on + automation + architecture + challenge
+## A complete, leveled roadmap built for real-world DevOps roles, growing complexity, and solution engineering. This plan blends theory + hands-on + automation + architecture + challenge
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Day          | Title                        | Description                                       | Difficulty | Type            |
 | ------------ | ---------------------------- | ------------------------------------------------- | ---------- | ----------      |
-| Day 1        | Hello Pipeline               | GitHub Actions basic pipeline: log, date, echo.   | 🟢 Easy    | Foundation |
+| Day 1   ✅  | Hello Pipeline               | GitHub Actions basic pipeline: log, date, echo.   | 🟢 Easy    | Foundation |
 | Day 2        | Lint & Test                  | Lint + unit test workflow (e.g. Python + Pytest). | 🟢 Easy    | Foundation |
 | Day 3        | Docker Build & Push          | Build Docker image and push to DockerHub.         | 🟢 Easy    | Foundation |
 | Day 4        | Deploy to EC2                | SSH deploy to Amazon EC2 using GitHub Actions.    | 🟡 Medium  | Foundation |
