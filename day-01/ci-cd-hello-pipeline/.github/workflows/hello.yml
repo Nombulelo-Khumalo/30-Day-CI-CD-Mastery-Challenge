@@ -1,5 +1,4 @@
-name: Hello Pipleline
-
+name: Hello Pipeline 
 on:
   push:
     branches:
@@ -14,7 +13,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Say Hello
-        run: echo "👋 Hello, ${{github.actor}}! This is your first pipeline"
+        run: echo "👋 Hello, ${{ github.actor }}! This is your first pipeline"  # ✅ Add spacing inside `${{ }}`
 
       - name: Show Date
         run: date
