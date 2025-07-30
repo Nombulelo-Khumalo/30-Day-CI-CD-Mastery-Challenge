@@ -11,8 +11,8 @@ Welcome to my 30-day challenge to master CI/CD pipelines — from the basics to 
 
 ## 📅 Challenge Structure
 
-- 📁 `day-XX/`: Daily folder with code + interview reflections  
-- 🎯 `day-XX/interview.md`: Daily technical reflection  
+- 📁 `.github/workflows/dayXX-project.yml`: Daily folder with code  
+- 🎯 `interview_questions_n_answers/dayXX-interview.md`: Daily technical reflection + interview questions with answers
 - 🧪 Bonus questions: Practice for interviews, certifications, and problem-solving
 - 🗂️ `markdown_file/plan.md`: 30-day roadmap  
 - 🧰 `markdown_file/techStack.md`: All tools used  
