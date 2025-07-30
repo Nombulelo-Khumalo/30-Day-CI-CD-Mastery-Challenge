@@ -1,4 +1,4 @@
-# 🔥30-Day CI/CD Mastery Challenge**
+# 🔥30-Day CI/CD Mastery Challenge
 
 ## A complete, leveled roadmap built for real-world DevOps roles, growing complexity, and solution engineering. This plan blends **theory + hands-on + automation + architecture + challenge
 
