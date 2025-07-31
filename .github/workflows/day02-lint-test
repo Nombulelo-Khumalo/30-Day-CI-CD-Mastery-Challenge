@@ -2,18 +2,18 @@ name: Lint & Test
 on:
   push:
     paths:
-      - '/day02/project/**'
+      - 'day02/project/**'
     branches: [ main ]
   pull_request:
     paths:
-      - '/day02/project/**'
+      - 'day02/project/**'
 
 jobs:
   build:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: /day02/project
+        working-directory: day02/project
 
     steps:
       - name: Checkout Code
