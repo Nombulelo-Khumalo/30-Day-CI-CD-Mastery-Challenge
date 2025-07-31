@@ -1,5 +1,4 @@
 name: Lint & Test
-
 on:
   push:
     paths:
@@ -14,12 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: day02/project
+        working-directory: /day02/project
 
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
-
+      
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -34,5 +33,5 @@ jobs:
       - name: Run Linter (flake8)
         run: flake8 app/
 
-      - name: Run Unit Tests (pytest)
+      - name: Run Unit Test (pytest)
         run: pytest tests/
