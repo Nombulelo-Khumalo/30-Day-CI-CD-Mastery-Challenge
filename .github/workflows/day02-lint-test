@@ -3,11 +3,11 @@ name: Lint & Test
 on:
   push:
     paths:
-      - 'day02/project/**'
+      - '/day02/project/**'
     branches: [ main ]
   pull_request:
     paths:
-      - 'day02/project/**'
+      - '/day02/project/**'
 
 jobs:
   build:
