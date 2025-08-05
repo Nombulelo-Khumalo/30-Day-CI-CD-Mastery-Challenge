@@ -4,7 +4,7 @@
 
 ---
 
-## ✅ README: GitHub Actions Local Testing with `act`
+## ✅ GitHub Actions Local Testing with `act`
 
 ### 📌 Why Use `act`?
 
@@ -39,7 +39,8 @@ Instead of waiting for GitHub Actions to run in the cloud, `act` executes the sa
 * Unzip it
 * Move `act.exe` to a known location like:
 
-```C:\Tools\act\
+```bash
+C:\Tools\act\
 ```
 
 #### 3. **Add `act` to your system PATH**
@@ -57,7 +58,8 @@ act --version
 
 You should see:
 
-```act version 0.2.80
+```bash
+act version 0.2.80
 ```
 
 ---
@@ -105,9 +107,11 @@ This will run the same workflow that GitHub runs when you push to `main`.
 
 ---
 
-### 🧩 Troubleshooting
+### 🧩 Troubleshooting possible errors
 
 * **Error about `act.exe not a valid app`** → Download the correct Windows version, not Linux or ARM.
 * **Step fails locally but works on GitHub** → Ensure Docker is running and the container has access to the needed resources.
 
 ---
+
+work smarter
