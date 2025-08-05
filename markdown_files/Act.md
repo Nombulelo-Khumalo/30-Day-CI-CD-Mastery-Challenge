@@ -114,4 +114,4 @@ This will run the same workflow that GitHub runs when you push to `main`.
 
 ---
 
-work smarter
+> work smarter
