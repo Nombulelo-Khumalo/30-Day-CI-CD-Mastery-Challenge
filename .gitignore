@@ -1,0 +1,4 @@
+.env
+*.env
+day03\docker-flask-app\app\.dockerignore
+*dockerignore

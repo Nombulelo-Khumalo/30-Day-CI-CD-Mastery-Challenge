@@ -1,0 +1,23 @@
+name: Docker Build
+
+on:
+    push:
+        branches: [ main ]
+        paths:
+            - 'day03/docker-flask-app/**'
+
+jobs:
+    docker_build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout Code
+              uses: actions/checkout@v4
+
+            - name: Set up Docker Image
+              run: |
+                docker build -t flask-ci-app ./day03/docker-flask-app
+
+            - name: Verify Image Runs
+              run: |
+                docker run --rm flask-ci-app
